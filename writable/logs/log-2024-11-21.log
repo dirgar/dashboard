@@ -1,0 +1,1648 @@
+CRITICAL - 2024-11-21 04:04:35 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731984717.278462.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731984717.278462.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731984717.278462.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732161875.226945', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:04:38 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731984718.728887.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731984718.728887.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731984718.728887.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732161878.100521', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:07:22 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731984864.566387.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731984864.566387.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731984864.566387.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732162042.884199', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:07:24 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731984873.309871.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731984873.309871.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731984873.309871.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732162044.391973', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:09:06 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731984875.300661.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731984875.300661.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731984875.300661.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732162146.583008', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:09:08 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731984880.235179.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731984880.235179.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731984880.235179.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732162148.471278', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:09:45 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985023.245397.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985023.245397.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985023.245397.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732162185.663848', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:15:51 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985125.303103.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985125.303103.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985125.303103.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732162551.195779', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:15:54 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985186.070803.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985186.070803.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985186.070803.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732162553.950001', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:16:29 --> ParseError: syntax error, unexpected token "(", expecting variable
+[Method: GET, Route: orcl]
+in APPPATH/Controllers/Orcl.php on line 28.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/html/app/Controllers/Orcl.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Orcl')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Orcl')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Orcl', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:17:39 --> ParseError: syntax error, unexpected token "(", expecting variable
+[Method: GET, Route: orcl]
+in APPPATH/Controllers/Orcl.php on line 28.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/html/app/Controllers/Orcl.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Orcl')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Orcl')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Orcl', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:17:55 --> ErrorException: Array to string conversion
+[Method: GET, Route: orcl]
+in APPPATH/Views/produksi/getProductionView.php on line 6.
+ 1 APPPATH/Views/produksi/getProductionView.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/var/www/html/app/Views/produksi/getProductionView.php', 6)
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/app/Views/produksi/getProductionView.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('produksi/getProductionView.php', [], true)
+ 5 APPPATH/Controllers/Orcl.php(25): view('produksi/getProductionView.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orcl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orcl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:19:38 --> ErrorException: Array to string conversion
+[Method: GET, Route: orcl]
+in APPPATH/Views/produksi/getProductionView.php on line 6.
+ 1 APPPATH/Views/produksi/getProductionView.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/var/www/html/app/Views/produksi/getProductionView.php', 6)
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/app/Views/produksi/getProductionView.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('produksi/getProductionView.php', [], true)
+ 5 APPPATH/Controllers/Orcl.php(25): view('produksi/getProductionView.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orcl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orcl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:19:39 --> ErrorException: Array to string conversion
+[Method: GET, Route: orcl]
+in APPPATH/Views/produksi/getProductionView.php on line 6.
+ 1 APPPATH/Views/produksi/getProductionView.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/var/www/html/app/Views/produksi/getProductionView.php', 6)
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/app/Views/produksi/getProductionView.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('produksi/getProductionView.php', [], true)
+ 5 APPPATH/Controllers/Orcl.php(25): view('produksi/getProductionView.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orcl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orcl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:20:32 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985195.421401.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985195.421401.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985195.421401.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732162832.098208', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:20:39 --> ErrorException: Array to string conversion
+[Method: GET, Route: orcl]
+in APPPATH/Views/produksi/getProductionView.php on line 6.
+ 1 APPPATH/Views/produksi/getProductionView.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/var/www/html/app/Views/produksi/getProductionView.php', 6)
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/app/Views/produksi/getProductionView.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('produksi/getProductionView.php', [], true)
+ 5 APPPATH/Controllers/Orcl.php(25): view('produksi/getProductionView.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orcl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orcl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:21:06 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985197.587832.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985197.587832.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985197.587832.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732162865.959575', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:23:45 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985202.214106.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985202.214106.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985202.214106.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732163025.727632', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:30:53 --> ErrorException: Undefined property: CodeIgniter\View\View::$output
+[Method: GET, Route: orcl]
+in APPPATH/Views/produksi/getProductionView.php on line 6.
+ 1 APPPATH/Views/produksi/getProductionView.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$output', '/var/www/html/app/Views/produksi/getProductionView.php', 6)
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/app/Views/produksi/getProductionView.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('produksi/getProductionView.php', [], true)
+ 5 APPPATH/Controllers/Orcl.php(25): view('produksi/getProductionView.php', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orcl->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orcl))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:33:17 --> Error: Call to undefined method CodeIgniter\View\View::respond()
+[Method: GET, Route: orcl]
+in APPPATH/Views/produksi/getProductionView.php on line 6.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('produksi/getProductionView.php', [], true)
+ 4 APPPATH/Controllers/Orcl.php(25): view('produksi/getProductionView.php', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orcl->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orcl))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:36:31 --> ErrorException: Undefined variable $drid
+[Method: GET, Route: orcl]
+in APPPATH/Controllers/Orcl.php on line 29.
+ 1 APPPATH/Controllers/Orcl.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $drid', '/var/www/html/app/Controllers/Orcl.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orcl->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orcl))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:37:29 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732163849.270487', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:37:31 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732163850.984337', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:40:47 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732164047.767724', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:40:49 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732164049.890950', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:40:52 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732164052.464197', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:49:04 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732164544.043723', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:49:06 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732164545.809877', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:51:16 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732164676.797863', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:51:18 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732164678.231415', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:51:35 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732164695.681646', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:51:35 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "''"
+[Method: POST, Route: %27%27]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('\'\'')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('\'\'')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:52:15 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732164734.897684', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:52:17 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732164737.622588', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:06:46 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732172805.488895', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:25:08 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732173908.729395', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:25:11 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732173911.052879', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:26:20 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732173980.258693', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:26:22 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732173981.867645', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:26:57 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732174017.445140', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:26:59 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732174019.878264', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:28:25 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732174105.314624', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:28:26 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732174106.263002', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:28:28 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732174108.342503', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:30:59 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732174259.427189', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:31:01 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732174261.032215', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:32:35 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732174355.117195', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:36:05 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732174565.055277', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:39:32 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732174772.650681', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:44:12 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732175052.361746', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:44:13 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732175053.588437', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:44:15 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732175055.555760', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:44:48 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732175055.555760', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:46:53 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732175213.324638', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:48:44 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732175324.750788', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:48:46 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732175326.802019', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:48:48 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732175328.801532', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:50:18 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732175418.102336', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:50:36 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732175418.102336', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:51:23 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732175418.102336', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:51:28 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732175487.327014', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:53:29 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732175609.163973', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:57:39 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732175859.387717', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:57:41 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732175860.963812', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:57:41 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732175861.407109', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:57:41 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732175861.673127', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:58:25 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732175904.950234', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:59:48 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732175988.561702', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 07:59:52 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732175992.201033', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 08:15:30 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732176930.354158', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 08:15:33 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732176933.471057', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 08:16:40 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732176999.836521', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 08:16:42 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732177002.353988', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 08:17:48 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732177068.362985', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 08:19:02 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732177142.476026', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 08:19:05 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732177145.614802', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 08:22:04 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732177324.429814', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 08:22:36 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732177356.003156', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 08:23:29 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732177409.901400', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 08:23:41 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732177420.943808', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 08:24:03 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732177443.225276', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 08:24:17 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732177457.249132', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 08:25:01 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732177501.603593', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 08:25:57 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732177557.267155', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 10:56:16 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732186576.047027', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 10:57:09 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732186629.254832', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 10:57:10 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732186630.690050', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 10:58:15 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732186695.173131', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 10:58:34 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732186714.447395', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 10:58:47 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732186727.520774', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 10:59:19 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732186759.303677', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:00:02 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732186801.510726', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:01:12 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732186872.294720', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:04:33 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732187073.104834', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:05:03 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732187103.372421', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:05:12 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732187112.359394', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:05:41 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732187141.479080', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:06:09 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732187169.184185', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:06:36 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732187196.018499', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:06:55 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732187215.700543', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:07:06 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732187226.205481', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:07:40 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732187260.220933', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:08:14 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732187294.681538', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:09:44 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732187384.249090', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:12:15 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732187535.320610', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:12:50 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732187570.347296', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:13:22 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732187602.000766', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:13:59 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732187639.077061', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:14:12 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732187652.003994', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:21:24 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732188084.447329', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:21:34 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732188094.535016', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:22:56 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732188176.393128', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:23:13 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732188193.609472', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:23:36 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732188216.577302', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:23:48 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732188228.899073', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:24:02 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732188242.025605', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:25:27 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732188327.170661', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:27:07 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732188427.280022', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:32:18 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732188737.969707', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:32:42 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732188762.472996', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:36:54 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732189014.292413', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:39:14 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732189153.900051', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:39:35 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732189175.735554', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:39:44 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732189184.591172', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:39:55 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732189195.525070', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:40:04 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732189204.006442', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 11:40:14 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1732189214.830481', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,566 @@
+CRITICAL - 2024-11-18 10:26:55 --> ParseError: syntax error, unexpected variable "$sql"
+[Method: GET, Route: orcl]
+in APPPATH/Models/OrclModel.php on line 69.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/html/app/Models/OrclModel.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\OrclModel')
+ 3 APPPATH/Controllers/Orcl.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\OrclModel')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orcl->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orcl))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:28:09 --> ParseError: syntax error, unexpected variable "$sql"
+[Method: GET, Route: orcl]
+in APPPATH/Models/OrclModel.php on line 69.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/html/app/Models/OrclModel.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\OrclModel')
+ 3 APPPATH/Controllers/Orcl.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\OrclModel')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orcl->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orcl))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:29:10 --> ParseError: syntax error, unexpected variable "$sql"
+[Method: GET, Route: orcl]
+in APPPATH/Models/OrclModel.php on line 69.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/html/app/Models/OrclModel.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\OrclModel')
+ 3 APPPATH/Controllers/Orcl.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\OrclModel')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Orcl->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orcl))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:42:18 --> CodeIgniter\HTTP\Exceptions\HTTPException: Request URI segment is out of range: "2"
+[Method: GET, Route: /]
+in SYSTEMPATH/HTTP/URI.php on line 565.
+ 1 SYSTEMPATH/HTTP/URI.php(565): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH/Config/Routes.php(12): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 SYSTEMPATH/Router/RouteCollection.php(340): require('/var/www/html/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:43:28 --> CodeIgniter\HTTP\Exceptions\HTTPException: Request URI segment is out of range: "2"
+[Method: GET, Route: /]
+in SYSTEMPATH/HTTP/URI.php on line 565.
+ 1 SYSTEMPATH/HTTP/URI.php(565): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH/Config/Routes.php(12): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 SYSTEMPATH/Router/RouteCollection.php(340): require('/var/www/html/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:43:29 --> CodeIgniter\HTTP\Exceptions\HTTPException: Request URI segment is out of range: "2"
+[Method: GET, Route: /]
+in SYSTEMPATH/HTTP/URI.php on line 565.
+ 1 SYSTEMPATH/HTTP/URI.php(565): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH/Config/Routes.php(12): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 SYSTEMPATH/Router/RouteCollection.php(340): require('/var/www/html/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:43:29 --> CodeIgniter\HTTP\Exceptions\HTTPException: Request URI segment is out of range: "2"
+[Method: GET, Route: /]
+in SYSTEMPATH/HTTP/URI.php on line 565.
+ 1 SYSTEMPATH/HTTP/URI.php(565): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH/Config/Routes.php(12): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 SYSTEMPATH/Router/RouteCollection.php(340): require('/var/www/html/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:43:29 --> CodeIgniter\HTTP\Exceptions\HTTPException: Request URI segment is out of range: "2"
+[Method: GET, Route: /]
+in SYSTEMPATH/HTTP/URI.php on line 565.
+ 1 SYSTEMPATH/HTTP/URI.php(565): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH/Config/Routes.php(12): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 SYSTEMPATH/Router/RouteCollection.php(340): require('/var/www/html/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:43:30 --> CodeIgniter\HTTP\Exceptions\HTTPException: Request URI segment is out of range: "2"
+[Method: GET, Route: /]
+in SYSTEMPATH/HTTP/URI.php on line 565.
+ 1 SYSTEMPATH/HTTP/URI.php(565): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH/Config/Routes.php(12): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 SYSTEMPATH/Router/RouteCollection.php(340): require('/var/www/html/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:43:30 --> CodeIgniter\HTTP\Exceptions\HTTPException: Request URI segment is out of range: "2"
+[Method: GET, Route: /]
+in SYSTEMPATH/HTTP/URI.php on line 565.
+ 1 SYSTEMPATH/HTTP/URI.php(565): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH/Config/Routes.php(12): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 SYSTEMPATH/Router/RouteCollection.php(340): require('/var/www/html/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:43:30 --> CodeIgniter\HTTP\Exceptions\HTTPException: Request URI segment is out of range: "2"
+[Method: GET, Route: /]
+in SYSTEMPATH/HTTP/URI.php on line 565.
+ 1 SYSTEMPATH/HTTP/URI.php(565): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH/Config/Routes.php(12): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 SYSTEMPATH/Router/RouteCollection.php(340): require('/var/www/html/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:45:14 --> CodeIgniter\HTTP\Exceptions\HTTPException: Request URI segment is out of range: "2"
+[Method: GET, Route: /]
+in SYSTEMPATH/HTTP/URI.php on line 565.
+ 1 SYSTEMPATH/HTTP/URI.php(565): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH/Config/Routes.php(12): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 SYSTEMPATH/Router/RouteCollection.php(340): require('/var/www/html/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:45:15 --> CodeIgniter\HTTP\Exceptions\HTTPException: Request URI segment is out of range: "2"
+[Method: GET, Route: /]
+in SYSTEMPATH/HTTP/URI.php on line 565.
+ 1 SYSTEMPATH/HTTP/URI.php(565): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH/Config/Routes.php(12): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 SYSTEMPATH/Router/RouteCollection.php(340): require('/var/www/html/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:45:15 --> CodeIgniter\HTTP\Exceptions\HTTPException: Request URI segment is out of range: "2"
+[Method: GET, Route: /]
+in SYSTEMPATH/HTTP/URI.php on line 565.
+ 1 SYSTEMPATH/HTTP/URI.php(565): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH/Config/Routes.php(12): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 SYSTEMPATH/Router/RouteCollection.php(340): require('/var/www/html/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:45:15 --> CodeIgniter\HTTP\Exceptions\HTTPException: Request URI segment is out of range: "2"
+[Method: GET, Route: /]
+in SYSTEMPATH/HTTP/URI.php on line 565.
+ 1 SYSTEMPATH/HTTP/URI.php(565): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH/Config/Routes.php(12): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 SYSTEMPATH/Router/RouteCollection.php(340): require('/var/www/html/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:45:16 --> CodeIgniter\HTTP\Exceptions\HTTPException: Request URI segment is out of range: "2"
+[Method: GET, Route: /]
+in SYSTEMPATH/HTTP/URI.php on line 565.
+ 1 SYSTEMPATH/HTTP/URI.php(565): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH/Config/Routes.php(12): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 SYSTEMPATH/Router/RouteCollection.php(340): require('/var/www/html/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:45:33 --> CodeIgniter\HTTP\Exceptions\HTTPException: Request URI segment is out of range: "2"
+[Method: GET, Route: /]
+in SYSTEMPATH/HTTP/URI.php on line 565.
+ 1 SYSTEMPATH/HTTP/URI.php(565): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH/Config/Routes.php(12): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 SYSTEMPATH/Router/RouteCollection.php(340): require('/var/www/html/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:46:48 --> CodeIgniter\HTTP\Exceptions\HTTPException: Request URI segment is out of range: "2"
+[Method: GET, Route: /]
+in SYSTEMPATH/HTTP/URI.php on line 565.
+ 1 SYSTEMPATH/HTTP/URI.php(565): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH/Config/Routes.php(12): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 SYSTEMPATH/Router/RouteCollection.php(340): require('/var/www/html/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:46:48 --> CodeIgniter\HTTP\Exceptions\HTTPException: Request URI segment is out of range: "2"
+[Method: GET, Route: /]
+in SYSTEMPATH/HTTP/URI.php on line 565.
+ 1 SYSTEMPATH/HTTP/URI.php(565): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH/Config/Routes.php(12): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 SYSTEMPATH/Router/RouteCollection.php(340): require('/var/www/html/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:48:12 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914687.747185.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914687.747185.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914687.747185.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731926892.387453', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:49:03 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914704.010600.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914704.010600.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914704.010600.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731926943.378342', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:49:08 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914704.033165.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914704.033165.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914704.033165.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731926947.851856', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:49:44 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914802.603771.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731926984.728337', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:50:04 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914802.603771.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731927004.479388', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:51:19 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914802.603771.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731927079.269978', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:52:10 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914802.603771.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731927130.794107', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:53:46 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914802.603771.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731927226.378880', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:53:56 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914802.603771.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731927236.168232', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:55:49 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914802.603771.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731927349.879999', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:55:54 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914802.603771.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731927354.736892', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:55:56 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914802.603771.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731927356.294575', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:55:57 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914802.603771.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731927357.806187', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:56:19 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914802.603771.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731927379.133962', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:59:37 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914802.603771.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731927577.312417', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 10:59:39 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914802.603771.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731927579.235359', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 11:00:05 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914802.603771.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731927605.874080', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 11:01:22 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914802.603771.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731927682.454200', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 11:01:32 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914802.603771.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731927692.037163', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 11:01:34 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914802.603771.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731927693.919474', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 11:12:30 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914802.603771.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731928350.293769', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 11:12:34 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914802.603771.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731928354.069062', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 11:12:36 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914802.603771.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731928355.937996', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 11:12:37 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914802.603771.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731928357.701885', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 11:17:50 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914802.603771.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731928670.147650', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-18 11:17:53 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731914802.603771.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731914802.603771.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1731928673.617739', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

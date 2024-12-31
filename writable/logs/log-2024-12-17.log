@@ -1,0 +1,813 @@
+CRITICAL - 2024-12-17 02:28:39 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1734402517.823848', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 02:28:43 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1734402522.685651', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 03:42:48 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1734406965.112125', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 03:42:49 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1734406967.304949', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 03:42:51 --> ErrorException: Undefined variable $data
+[Method: GET, Route: restandetaildata/AFD-XVIII]
+in APPPATH/Models/RestanDetailModel.php on line 82.
+ 1 APPPATH/Models/RestanDetailModel.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/var/www/html/app/Models/RestanDetailModel.php', 82)
+ 2 APPPATH/Controllers/RestanDetailData.php(26): App\Models\RestanDetailModel->getRestanDetail('AFD-XVIII')
+ 3 APPPATH/Controllers/RestanDetailData.php(15): App\Controllers\RestanDetailData->getRestanDetailData('AFD-XVIII')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\RestanDetailData->index('AFD-XVIII')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestanDetailData))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 03:42:52 --> ErrorException: Undefined variable $data
+[Method: GET, Route: restandetaildata/AFD-XVIII]
+in APPPATH/Models/RestanDetailModel.php on line 82.
+ 1 APPPATH/Models/RestanDetailModel.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/var/www/html/app/Models/RestanDetailModel.php', 82)
+ 2 APPPATH/Controllers/RestanDetailData.php(26): App\Models\RestanDetailModel->getRestanDetail('AFD-XVIII')
+ 3 APPPATH/Controllers/RestanDetailData.php(15): App\Controllers\RestanDetailData->getRestanDetailData('AFD-XVIII')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\RestanDetailData->index('AFD-XVIII')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestanDetailData))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 06:40:32 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1734417631.129246', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 06:41:30 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1734417689.817990', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-17 06:41:32 --> Error connecting to the database: ErrorException: oci_connect(): ORA-12170: TNS:Connect timeout occurred in /var/www/html/system/Database/OCI8/Connection.php:149
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_connect(): ...', '/var/www/html/s...', 149)
+#1 /var/www/html/system/Database/OCI8/Connection.php(149): oci_connect('EPMS_SMG', Object(SensitiveParameterValue), '10.20.36.10:152...', 'AL32UTF8')
+#2 /var/www/html/system/Database/BaseConnection.php(421): CodeIgniter\Database\OCI8\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/ListAfdModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT DIVISION...')
+#5 /var/www/html/app/Controllers/ListAfdController.php(16): App\Models\ListAfdModel->getListAfd()
+#6 /var/www/html/system/CodeIgniter.php(933): App\Controllers\ListAfdController->index()
+#7 /var/www/html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdController))
+#8 /var/www/html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-12-17 06:41:32 --> Error connecting to the database: ErrorException: oci_connect(): ORA-12170: TNS:Connect timeout occurred in /var/www/html/system/Database/OCI8/Connection.php:149
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_connect(): ...', '/var/www/html/s...', 149)
+#1 /var/www/html/system/Database/OCI8/Connection.php(149): oci_connect('EPMS_SMG', Object(SensitiveParameterValue), '10.20.36.10:152...', 'AL32UTF8')
+#2 /var/www/html/system/Database/BaseConnection.php(421): CodeIgniter\Database\OCI8\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/ListAfdModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT DIVISION...')
+#5 /var/www/html/app/Controllers/ListAfdController.php(16): App\Models\ListAfdModel->getListAfd()
+#6 /var/www/html/system/CodeIgniter.php(933): App\Controllers\ListAfdController->index()
+#7 /var/www/html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdController))
+#8 /var/www/html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-12-17 06:41:32 --> Error connecting to the database: ErrorException: oci_connect(): ORA-12170: TNS:Connect timeout occurred in /var/www/html/system/Database/OCI8/Connection.php:149
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_connect(): ...', '/var/www/html/s...', 149)
+#1 /var/www/html/system/Database/OCI8/Connection.php(149): oci_connect('EPMS_SMG', Object(SensitiveParameterValue), '10.20.36.10:152...', 'AL32UTF8')
+#2 /var/www/html/system/Database/BaseConnection.php(421): CodeIgniter\Database\OCI8\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/ListBlokModel.php(79): CodeIgniter\Database\BaseConnection->query('SELECT BLOCKID,...')
+#5 /var/www/html/app/Controllers/ListBlokController.php(25): App\Models\ListBlokModel->getListBlok('AFD-I')
+#6 /var/www/html/system/CodeIgniter.php(933): App\Controllers\ListBlokController->listBlok('AFD-I')
+#7 /var/www/html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListBlokController))
+#8 /var/www/html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-12-17 06:41:32 --> Error connecting to the database: ErrorException: oci_connect(): ORA-12170: TNS:Connect timeout occurred in /var/www/html/system/Database/OCI8/Connection.php:149
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_connect(): ...', '/var/www/html/s...', 149)
+#1 /var/www/html/system/Database/OCI8/Connection.php(149): oci_connect('EPMS_SMG', Object(SensitiveParameterValue), '10.20.36.10:152...', 'AL32UTF8')
+#2 /var/www/html/system/Database/BaseConnection.php(421): CodeIgniter\Database\OCI8\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/ListAfdRestanModel.php(70): CodeIgniter\Database\BaseConnection->query('SELECT A.SEQ, A...')
+#5 /var/www/html/app/Controllers/ListAfdRestanController.php(16): App\Models\ListAfdRestanModel->getListAfdRestan('09/18/2024', '12/16/2024')
+#6 /var/www/html/system/CodeIgniter.php(933): App\Controllers\ListAfdRestanController->index()
+#7 /var/www/html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdRestanController))
+#8 /var/www/html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-12-17 06:41:32 --> Error connecting to the database: ErrorException: oci_connect(): ORA-12170: TNS:Connect timeout occurred in /var/www/html/system/Database/OCI8/Connection.php:149
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_connect(): ...', '/var/www/html/s...', 149)
+#1 /var/www/html/system/Database/OCI8/Connection.php(149): oci_connect('EPMS_SMG', Object(SensitiveParameterValue), '10.20.36.10:152...', 'AL32UTF8')
+#2 /var/www/html/system/Database/BaseConnection.php(421): CodeIgniter\Database\OCI8\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/ListAfdModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT DIVISION...')
+#5 /var/www/html/app/Controllers/ListAfdController.php(16): App\Models\ListAfdModel->getListAfd()
+#6 /var/www/html/system/CodeIgniter.php(933): App\Controllers\ListAfdController->index()
+#7 /var/www/html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdController))
+#8 /var/www/html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-17 06:41:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [OCI8]: oci_connect(): ORA-12170: TNS:Connect timeout occurred
+[Method: GET, Route: listafdrestan]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ListAfdRestanModel.php(70): CodeIgniter\Database\BaseConnection->query('SELECT A.SEQ, A.ESTATECODE ESTATECODE, A.DIVISIONCODE AFD FROM FIELD_ALL A, FIELDCROP B, db_eharvesting.MASTERHASILEDIT C WHERE A.DIVISIONCODE = B.DIVISIONCODE AND b.fieldcode = c.fieldcode AND comp= \'SMG\' AND C.STANGKUT = \'FALSE\' and year = 2024   AND TO_DATE (C.TDATE, \'ddmmyyyy\') between TO_DATE (\'09/18/2024\', \'MM/DD/YYYY\') and TO_DATE (\'12/16/2024\', \'MM/DD/YYYY\')  GROUP BY a.estatecode,A.DIVISIONCODE, a.seq order by a.estatecode,a.seq ')
+ 3 APPPATH/Controllers/ListAfdRestanController.php(16): App\Models\ListAfdRestanModel->getListAfdRestan('09/18/2024', '12/16/2024')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ListAfdRestanController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdRestanController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 06:41:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [OCI8]: oci_connect(): ORA-12170: TNS:Connect timeout occurred
+[Method: GET, Route: listblok/AFD-I]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ListBlokModel.php(79): CodeIgniter\Database\BaseConnection->query('SELECT BLOCKID, ESTATECODE FROM OPTPHMASTER WHERE DIVISIONCODE = \'AFD-I\' AND INACTIVEDATE IS NULL GROUP BY BLOCKID, ESTATECODE ')
+ 3 APPPATH/Controllers/ListBlokController.php(25): App\Models\ListBlokModel->getListBlok('AFD-I')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ListBlokController->listBlok('AFD-I')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListBlokController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 06:41:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [OCI8]: oci_connect(): ORA-12170: TNS:Connect timeout occurred
+[Method: GET, Route: listafd]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ListAfdModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT DIVISIONCODE FROM FIELD_ALL WHERE (COMP,YEAR) in (SELECT COMP,MAX(YEAR) YEAR FROM FIELD_ALL GROUP BY COMP) AND COMP = \'SMG\' ORDER BY estatecode, seq ')
+ 3 APPPATH/Controllers/ListAfdController.php(16): App\Models\ListAfdModel->getListAfd()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ListAfdController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 06:41:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [OCI8]: oci_connect(): ORA-12170: TNS:Connect timeout occurred
+[Method: GET, Route: listafd]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ListAfdModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT DIVISIONCODE FROM FIELD_ALL WHERE (COMP,YEAR) in (SELECT COMP,MAX(YEAR) YEAR FROM FIELD_ALL GROUP BY COMP) AND COMP = \'SMG\' ORDER BY estatecode, seq ')
+ 3 APPPATH/Controllers/ListAfdController.php(16): App\Models\ListAfdModel->getListAfd()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ListAfdController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 06:41:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [OCI8]: oci_connect(): ORA-12170: TNS:Connect timeout occurred
+[Method: GET, Route: listafd]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ListAfdModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT DIVISIONCODE FROM FIELD_ALL WHERE (COMP,YEAR) in (SELECT COMP,MAX(YEAR) YEAR FROM FIELD_ALL GROUP BY COMP) AND COMP = \'SMG\' ORDER BY estatecode, seq ')
+ 3 APPPATH/Controllers/ListAfdController.php(16): App\Models\ListAfdModel->getListAfd()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ListAfdController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-17 06:41:32 --> Error connecting to the database: ErrorException: oci_connect(): ORA-12170: TNS:Connect timeout occurred in /var/www/html/system/Database/OCI8/Connection.php:149
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_connect(): ...', '/var/www/html/s...', 149)
+#1 /var/www/html/system/Database/OCI8/Connection.php(149): oci_connect('EPMS_SMG', Object(SensitiveParameterValue), '10.20.36.10:152...', 'AL32UTF8')
+#2 /var/www/html/system/Database/BaseConnection.php(421): CodeIgniter\Database\OCI8\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/ListBlokModel.php(79): CodeIgniter\Database\BaseConnection->query('SELECT BLOCKID,...')
+#5 /var/www/html/app/Controllers/ListBlokController.php(25): App\Models\ListBlokModel->getListBlok('AFD-I')
+#6 /var/www/html/system/CodeIgniter.php(933): App\Controllers\ListBlokController->listBlok('AFD-I')
+#7 /var/www/html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListBlokController))
+#8 /var/www/html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-17 06:41:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [OCI8]: oci_connect(): ORA-12170: TNS:Connect timeout occurred
+[Method: GET, Route: listblok/AFD-I]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ListBlokModel.php(79): CodeIgniter\Database\BaseConnection->query('SELECT BLOCKID, ESTATECODE FROM OPTPHMASTER WHERE DIVISIONCODE = \'AFD-I\' AND INACTIVEDATE IS NULL GROUP BY BLOCKID, ESTATECODE ')
+ 3 APPPATH/Controllers/ListBlokController.php(25): App\Models\ListBlokModel->getListBlok('AFD-I')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ListBlokController->listBlok('AFD-I')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListBlokController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 06:42:08 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1734417728.307708', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-17 06:42:09 --> Error connecting to the database: ErrorException: oci_connect(): ORA-12543: TNS:destination host unreachable in /var/www/html/system/Database/OCI8/Connection.php:149
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_connect(): ...', '/var/www/html/s...', 149)
+#1 /var/www/html/system/Database/OCI8/Connection.php(149): oci_connect('EPMS_SMG', Object(SensitiveParameterValue), '10.20.36.10:152...', 'AL32UTF8')
+#2 /var/www/html/system/Database/BaseConnection.php(421): CodeIgniter\Database\OCI8\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/ListAfdRestanModel.php(70): CodeIgniter\Database\BaseConnection->query('SELECT A.SEQ, A...')
+#5 /var/www/html/app/Controllers/ListAfdRestanController.php(16): App\Models\ListAfdRestanModel->getListAfdRestan('09/18/2024', '12/16/2024')
+#6 /var/www/html/system/CodeIgniter.php(933): App\Controllers\ListAfdRestanController->index()
+#7 /var/www/html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdRestanController))
+#8 /var/www/html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-12-17 06:42:09 --> Error connecting to the database: ErrorException: oci_connect(): ORA-12543: TNS:destination host unreachable in /var/www/html/system/Database/OCI8/Connection.php:149
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_connect(): ...', '/var/www/html/s...', 149)
+#1 /var/www/html/system/Database/OCI8/Connection.php(149): oci_connect('EPMS_SMG', Object(SensitiveParameterValue), '10.20.36.10:152...', 'AL32UTF8')
+#2 /var/www/html/system/Database/BaseConnection.php(421): CodeIgniter\Database\OCI8\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/ListAfdModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT DIVISION...')
+#5 /var/www/html/app/Controllers/ListAfdController.php(16): App\Models\ListAfdModel->getListAfd()
+#6 /var/www/html/system/CodeIgniter.php(933): App\Controllers\ListAfdController->index()
+#7 /var/www/html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdController))
+#8 /var/www/html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-12-17 06:42:09 --> Error connecting to the database: ErrorException: oci_connect(): ORA-12543: TNS:destination host unreachable in /var/www/html/system/Database/OCI8/Connection.php:149
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_connect(): ...', '/var/www/html/s...', 149)
+#1 /var/www/html/system/Database/OCI8/Connection.php(149): oci_connect('EPMS_SMG', Object(SensitiveParameterValue), '10.20.36.10:152...', 'AL32UTF8')
+#2 /var/www/html/system/Database/BaseConnection.php(421): CodeIgniter\Database\OCI8\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/ListAfdModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT DIVISION...')
+#5 /var/www/html/app/Controllers/ListAfdController.php(16): App\Models\ListAfdModel->getListAfd()
+#6 /var/www/html/system/CodeIgniter.php(933): App\Controllers\ListAfdController->index()
+#7 /var/www/html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdController))
+#8 /var/www/html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-17 06:42:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [OCI8]: oci_connect(): ORA-12543: TNS:destination host unreachable
+[Method: GET, Route: listafdrestan]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ListAfdRestanModel.php(70): CodeIgniter\Database\BaseConnection->query('SELECT A.SEQ, A.ESTATECODE ESTATECODE, A.DIVISIONCODE AFD FROM FIELD_ALL A, FIELDCROP B, db_eharvesting.MASTERHASILEDIT C WHERE A.DIVISIONCODE = B.DIVISIONCODE AND b.fieldcode = c.fieldcode AND comp= \'SMG\' AND C.STANGKUT = \'FALSE\' and year = 2024   AND TO_DATE (C.TDATE, \'ddmmyyyy\') between TO_DATE (\'09/18/2024\', \'MM/DD/YYYY\') and TO_DATE (\'12/16/2024\', \'MM/DD/YYYY\')  GROUP BY a.estatecode,A.DIVISIONCODE, a.seq order by a.estatecode,a.seq ')
+ 3 APPPATH/Controllers/ListAfdRestanController.php(16): App\Models\ListAfdRestanModel->getListAfdRestan('09/18/2024', '12/16/2024')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ListAfdRestanController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdRestanController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 06:42:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [OCI8]: oci_connect(): ORA-12543: TNS:destination host unreachable
+[Method: GET, Route: listafd]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ListAfdModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT DIVISIONCODE FROM FIELD_ALL WHERE (COMP,YEAR) in (SELECT COMP,MAX(YEAR) YEAR FROM FIELD_ALL GROUP BY COMP) AND COMP = \'SMG\' ORDER BY estatecode, seq ')
+ 3 APPPATH/Controllers/ListAfdController.php(16): App\Models\ListAfdModel->getListAfd()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ListAfdController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 06:42:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [OCI8]: oci_connect(): ORA-12543: TNS:destination host unreachable
+[Method: GET, Route: listafd]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ListAfdModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT DIVISIONCODE FROM FIELD_ALL WHERE (COMP,YEAR) in (SELECT COMP,MAX(YEAR) YEAR FROM FIELD_ALL GROUP BY COMP) AND COMP = \'SMG\' ORDER BY estatecode, seq ')
+ 3 APPPATH/Controllers/ListAfdController.php(16): App\Models\ListAfdModel->getListAfd()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ListAfdController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-17 06:42:09 --> Error connecting to the database: ErrorException: oci_connect(): ORA-12543: TNS:destination host unreachable in /var/www/html/system/Database/OCI8/Connection.php:149
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_connect(): ...', '/var/www/html/s...', 149)
+#1 /var/www/html/system/Database/OCI8/Connection.php(149): oci_connect('EPMS_SMG', Object(SensitiveParameterValue), '10.20.36.10:152...', 'AL32UTF8')
+#2 /var/www/html/system/Database/BaseConnection.php(421): CodeIgniter\Database\OCI8\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/ListAfdModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT DIVISION...')
+#5 /var/www/html/app/Controllers/ListAfdController.php(16): App\Models\ListAfdModel->getListAfd()
+#6 /var/www/html/system/CodeIgniter.php(933): App\Controllers\ListAfdController->index()
+#7 /var/www/html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdController))
+#8 /var/www/html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-12-17 06:42:09 --> Error connecting to the database: ErrorException: oci_connect(): ORA-12543: TNS:destination host unreachable in /var/www/html/system/Database/OCI8/Connection.php:149
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_connect(): ...', '/var/www/html/s...', 149)
+#1 /var/www/html/system/Database/OCI8/Connection.php(149): oci_connect('EPMS_SMG', Object(SensitiveParameterValue), '10.20.36.10:152...', 'AL32UTF8')
+#2 /var/www/html/system/Database/BaseConnection.php(421): CodeIgniter\Database\OCI8\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/ListBlokModel.php(79): CodeIgniter\Database\BaseConnection->query('SELECT BLOCKID,...')
+#5 /var/www/html/app/Controllers/ListBlokController.php(25): App\Models\ListBlokModel->getListBlok('AFD-I')
+#6 /var/www/html/system/CodeIgniter.php(933): App\Controllers\ListBlokController->listBlok('AFD-I')
+#7 /var/www/html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListBlokController))
+#8 /var/www/html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-17 06:42:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [OCI8]: oci_connect(): ORA-12543: TNS:destination host unreachable
+[Method: GET, Route: listafd]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ListAfdModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT DIVISIONCODE FROM FIELD_ALL WHERE (COMP,YEAR) in (SELECT COMP,MAX(YEAR) YEAR FROM FIELD_ALL GROUP BY COMP) AND COMP = \'SMG\' ORDER BY estatecode, seq ')
+ 3 APPPATH/Controllers/ListAfdController.php(16): App\Models\ListAfdModel->getListAfd()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ListAfdController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 06:42:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [OCI8]: oci_connect(): ORA-12543: TNS:destination host unreachable
+[Method: GET, Route: listblok/AFD-I]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ListBlokModel.php(79): CodeIgniter\Database\BaseConnection->query('SELECT BLOCKID, ESTATECODE FROM OPTPHMASTER WHERE DIVISIONCODE = \'AFD-I\' AND INACTIVEDATE IS NULL GROUP BY BLOCKID, ESTATECODE ')
+ 3 APPPATH/Controllers/ListBlokController.php(25): App\Models\ListBlokModel->getListBlok('AFD-I')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ListBlokController->listBlok('AFD-I')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListBlokController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 06:42:23 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1734417742.524526', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-17 06:42:24 --> Error connecting to the database: ErrorException: oci_connect(): ORA-12543: TNS:destination host unreachable in /var/www/html/system/Database/OCI8/Connection.php:149
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_connect(): ...', '/var/www/html/s...', 149)
+#1 /var/www/html/system/Database/OCI8/Connection.php(149): oci_connect('EPMS_SMG', Object(SensitiveParameterValue), '10.20.36.10:152...', 'AL32UTF8')
+#2 /var/www/html/system/Database/BaseConnection.php(421): CodeIgniter\Database\OCI8\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/ListBlokModel.php(79): CodeIgniter\Database\BaseConnection->query('SELECT BLOCKID,...')
+#5 /var/www/html/app/Controllers/ListBlokController.php(25): App\Models\ListBlokModel->getListBlok('AFD-I')
+#6 /var/www/html/system/CodeIgniter.php(933): App\Controllers\ListBlokController->listBlok('AFD-I')
+#7 /var/www/html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListBlokController))
+#8 /var/www/html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-12-17 06:42:24 --> Error connecting to the database: ErrorException: oci_connect(): ORA-12543: TNS:destination host unreachable in /var/www/html/system/Database/OCI8/Connection.php:149
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_connect(): ...', '/var/www/html/s...', 149)
+#1 /var/www/html/system/Database/OCI8/Connection.php(149): oci_connect('EPMS_SMG', Object(SensitiveParameterValue), '10.20.36.10:152...', 'AL32UTF8')
+#2 /var/www/html/system/Database/BaseConnection.php(421): CodeIgniter\Database\OCI8\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/ListAfdModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT DIVISION...')
+#5 /var/www/html/app/Controllers/ListAfdController.php(16): App\Models\ListAfdModel->getListAfd()
+#6 /var/www/html/system/CodeIgniter.php(933): App\Controllers\ListAfdController->index()
+#7 /var/www/html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdController))
+#8 /var/www/html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-12-17 06:42:24 --> Error connecting to the database: ErrorException: oci_connect(): ORA-12543: TNS:destination host unreachable in /var/www/html/system/Database/OCI8/Connection.php:149
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_connect(): ...', '/var/www/html/s...', 149)
+#1 /var/www/html/system/Database/OCI8/Connection.php(149): oci_connect('EPMS_SMG', Object(SensitiveParameterValue), '10.20.36.10:152...', 'AL32UTF8')
+#2 /var/www/html/system/Database/BaseConnection.php(421): CodeIgniter\Database\OCI8\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/ListAfdRestanModel.php(70): CodeIgniter\Database\BaseConnection->query('SELECT A.SEQ, A...')
+#5 /var/www/html/app/Controllers/ListAfdRestanController.php(16): App\Models\ListAfdRestanModel->getListAfdRestan('09/18/2024', '12/16/2024')
+#6 /var/www/html/system/CodeIgniter.php(933): App\Controllers\ListAfdRestanController->index()
+#7 /var/www/html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdRestanController))
+#8 /var/www/html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-12-17 06:42:24 --> Error connecting to the database: ErrorException: oci_connect(): ORA-12543: TNS:destination host unreachable in /var/www/html/system/Database/OCI8/Connection.php:149
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_connect(): ...', '/var/www/html/s...', 149)
+#1 /var/www/html/system/Database/OCI8/Connection.php(149): oci_connect('EPMS_SMG', Object(SensitiveParameterValue), '10.20.36.10:152...', 'AL32UTF8')
+#2 /var/www/html/system/Database/BaseConnection.php(421): CodeIgniter\Database\OCI8\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/ListAfdModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT DIVISION...')
+#5 /var/www/html/app/Controllers/ListAfdController.php(16): App\Models\ListAfdModel->getListAfd()
+#6 /var/www/html/system/CodeIgniter.php(933): App\Controllers\ListAfdController->index()
+#7 /var/www/html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdController))
+#8 /var/www/html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-12-17 06:42:24 --> Error connecting to the database: ErrorException: oci_connect(): ORA-12543: TNS:destination host unreachable in /var/www/html/system/Database/OCI8/Connection.php:149
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_connect(): ...', '/var/www/html/s...', 149)
+#1 /var/www/html/system/Database/OCI8/Connection.php(149): oci_connect('EPMS_SMG', Object(SensitiveParameterValue), '10.20.36.10:152...', 'AL32UTF8')
+#2 /var/www/html/system/Database/BaseConnection.php(421): CodeIgniter\Database\OCI8\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/ListAfdModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT DIVISION...')
+#5 /var/www/html/app/Controllers/ListAfdController.php(16): App\Models\ListAfdModel->getListAfd()
+#6 /var/www/html/system/CodeIgniter.php(933): App\Controllers\ListAfdController->index()
+#7 /var/www/html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdController))
+#8 /var/www/html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-17 06:42:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [OCI8]: oci_connect(): ORA-12543: TNS:destination host unreachable
+[Method: GET, Route: listblok/AFD-I]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ListBlokModel.php(79): CodeIgniter\Database\BaseConnection->query('SELECT BLOCKID, ESTATECODE FROM OPTPHMASTER WHERE DIVISIONCODE = \'AFD-I\' AND INACTIVEDATE IS NULL GROUP BY BLOCKID, ESTATECODE ')
+ 3 APPPATH/Controllers/ListBlokController.php(25): App\Models\ListBlokModel->getListBlok('AFD-I')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ListBlokController->listBlok('AFD-I')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListBlokController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 06:42:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [OCI8]: oci_connect(): ORA-12543: TNS:destination host unreachable
+[Method: GET, Route: listafd]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ListAfdModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT DIVISIONCODE FROM FIELD_ALL WHERE (COMP,YEAR) in (SELECT COMP,MAX(YEAR) YEAR FROM FIELD_ALL GROUP BY COMP) AND COMP = \'SMG\' ORDER BY estatecode, seq ')
+ 3 APPPATH/Controllers/ListAfdController.php(16): App\Models\ListAfdModel->getListAfd()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ListAfdController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 06:42:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [OCI8]: oci_connect(): ORA-12543: TNS:destination host unreachable
+[Method: GET, Route: listafdrestan]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ListAfdRestanModel.php(70): CodeIgniter\Database\BaseConnection->query('SELECT A.SEQ, A.ESTATECODE ESTATECODE, A.DIVISIONCODE AFD FROM FIELD_ALL A, FIELDCROP B, db_eharvesting.MASTERHASILEDIT C WHERE A.DIVISIONCODE = B.DIVISIONCODE AND b.fieldcode = c.fieldcode AND comp= \'SMG\' AND C.STANGKUT = \'FALSE\' and year = 2024   AND TO_DATE (C.TDATE, \'ddmmyyyy\') between TO_DATE (\'09/18/2024\', \'MM/DD/YYYY\') and TO_DATE (\'12/16/2024\', \'MM/DD/YYYY\')  GROUP BY a.estatecode,A.DIVISIONCODE, a.seq order by a.estatecode,a.seq ')
+ 3 APPPATH/Controllers/ListAfdRestanController.php(16): App\Models\ListAfdRestanModel->getListAfdRestan('09/18/2024', '12/16/2024')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ListAfdRestanController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdRestanController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 06:42:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [OCI8]: oci_connect(): ORA-12543: TNS:destination host unreachable
+[Method: GET, Route: listafd]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ListAfdModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT DIVISIONCODE FROM FIELD_ALL WHERE (COMP,YEAR) in (SELECT COMP,MAX(YEAR) YEAR FROM FIELD_ALL GROUP BY COMP) AND COMP = \'SMG\' ORDER BY estatecode, seq ')
+ 3 APPPATH/Controllers/ListAfdController.php(16): App\Models\ListAfdModel->getListAfd()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ListAfdController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 06:42:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [OCI8]: oci_connect(): ORA-12543: TNS:destination host unreachable
+[Method: GET, Route: listafd]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ListAfdModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT DIVISIONCODE FROM FIELD_ALL WHERE (COMP,YEAR) in (SELECT COMP,MAX(YEAR) YEAR FROM FIELD_ALL GROUP BY COMP) AND COMP = \'SMG\' ORDER BY estatecode, seq ')
+ 3 APPPATH/Controllers/ListAfdController.php(16): App\Models\ListAfdModel->getListAfd()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ListAfdController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-17 06:42:30 --> Error connecting to the database: ErrorException: oci_connect(): ORA-12170: TNS:Connect timeout occurred in /var/www/html/system/Database/OCI8/Connection.php:149
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_connect(): ...', '/var/www/html/s...', 149)
+#1 /var/www/html/system/Database/OCI8/Connection.php(149): oci_connect('EPMS_SMG', Object(SensitiveParameterValue), '10.20.36.10:152...', 'AL32UTF8')
+#2 /var/www/html/system/Database/BaseConnection.php(421): CodeIgniter\Database\OCI8\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/ListAfdModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT DIVISION...')
+#5 /var/www/html/app/Controllers/ListAfdController.php(16): App\Models\ListAfdModel->getListAfd()
+#6 /var/www/html/system/CodeIgniter.php(933): App\Controllers\ListAfdController->index()
+#7 /var/www/html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdController))
+#8 /var/www/html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-17 06:42:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [OCI8]: oci_connect(): ORA-12170: TNS:Connect timeout occurred
+[Method: GET, Route: listafd]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ListAfdModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT DIVISIONCODE FROM FIELD_ALL WHERE (COMP,YEAR) in (SELECT COMP,MAX(YEAR) YEAR FROM FIELD_ALL GROUP BY COMP) AND COMP = \'SMG\' ORDER BY estatecode, seq ')
+ 3 APPPATH/Controllers/ListAfdController.php(16): App\Models\ListAfdModel->getListAfd()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ListAfdController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-17 06:42:30 --> Error connecting to the database: ErrorException: oci_connect(): ORA-12170: TNS:Connect timeout occurred in /var/www/html/system/Database/OCI8/Connection.php:149
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_connect(): ...', '/var/www/html/s...', 149)
+#1 /var/www/html/system/Database/OCI8/Connection.php(149): oci_connect('EPMS_SMG', Object(SensitiveParameterValue), '10.20.36.10:152...', 'AL32UTF8')
+#2 /var/www/html/system/Database/BaseConnection.php(421): CodeIgniter\Database\OCI8\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/ListAfdRestanModel.php(70): CodeIgniter\Database\BaseConnection->query('SELECT A.SEQ, A...')
+#5 /var/www/html/app/Controllers/ListAfdRestanController.php(16): App\Models\ListAfdRestanModel->getListAfdRestan('09/18/2024', '12/16/2024')
+#6 /var/www/html/system/CodeIgniter.php(933): App\Controllers\ListAfdRestanController->index()
+#7 /var/www/html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdRestanController))
+#8 /var/www/html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-17 06:42:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [OCI8]: oci_connect(): ORA-12170: TNS:Connect timeout occurred
+[Method: GET, Route: listafdrestan]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ListAfdRestanModel.php(70): CodeIgniter\Database\BaseConnection->query('SELECT A.SEQ, A.ESTATECODE ESTATECODE, A.DIVISIONCODE AFD FROM FIELD_ALL A, FIELDCROP B, db_eharvesting.MASTERHASILEDIT C WHERE A.DIVISIONCODE = B.DIVISIONCODE AND b.fieldcode = c.fieldcode AND comp= \'SMG\' AND C.STANGKUT = \'FALSE\' and year = 2024   AND TO_DATE (C.TDATE, \'ddmmyyyy\') between TO_DATE (\'09/18/2024\', \'MM/DD/YYYY\') and TO_DATE (\'12/16/2024\', \'MM/DD/YYYY\')  GROUP BY a.estatecode,A.DIVISIONCODE, a.seq order by a.estatecode,a.seq ')
+ 3 APPPATH/Controllers/ListAfdRestanController.php(16): App\Models\ListAfdRestanModel->getListAfdRestan('09/18/2024', '12/16/2024')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ListAfdRestanController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdRestanController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-17 06:42:30 --> Error connecting to the database: ErrorException: oci_connect(): ORA-12170: TNS:Connect timeout occurred in /var/www/html/system/Database/OCI8/Connection.php:149
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_connect(): ...', '/var/www/html/s...', 149)
+#1 /var/www/html/system/Database/OCI8/Connection.php(149): oci_connect('EPMS_SMG', Object(SensitiveParameterValue), '10.20.36.10:152...', 'AL32UTF8')
+#2 /var/www/html/system/Database/BaseConnection.php(421): CodeIgniter\Database\OCI8\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/ListAfdModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT DIVISION...')
+#5 /var/www/html/app/Controllers/ListAfdController.php(16): App\Models\ListAfdModel->getListAfd()
+#6 /var/www/html/system/CodeIgniter.php(933): App\Controllers\ListAfdController->index()
+#7 /var/www/html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdController))
+#8 /var/www/html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-17 06:42:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [OCI8]: oci_connect(): ORA-12170: TNS:Connect timeout occurred
+[Method: GET, Route: listafd]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ListAfdModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT DIVISIONCODE FROM FIELD_ALL WHERE (COMP,YEAR) in (SELECT COMP,MAX(YEAR) YEAR FROM FIELD_ALL GROUP BY COMP) AND COMP = \'SMG\' ORDER BY estatecode, seq ')
+ 3 APPPATH/Controllers/ListAfdController.php(16): App\Models\ListAfdModel->getListAfd()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ListAfdController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-17 06:42:30 --> Error connecting to the database: ErrorException: oci_connect(): ORA-12170: TNS:Connect timeout occurred in /var/www/html/system/Database/OCI8/Connection.php:149
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_connect(): ...', '/var/www/html/s...', 149)
+#1 /var/www/html/system/Database/OCI8/Connection.php(149): oci_connect('EPMS_SMG', Object(SensitiveParameterValue), '10.20.36.10:152...', 'AL32UTF8')
+#2 /var/www/html/system/Database/BaseConnection.php(421): CodeIgniter\Database\OCI8\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/ListAfdModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT DIVISION...')
+#5 /var/www/html/app/Controllers/ListAfdController.php(16): App\Models\ListAfdModel->getListAfd()
+#6 /var/www/html/system/CodeIgniter.php(933): App\Controllers\ListAfdController->index()
+#7 /var/www/html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdController))
+#8 /var/www/html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-17 06:42:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [OCI8]: oci_connect(): ORA-12170: TNS:Connect timeout occurred
+[Method: GET, Route: listafd]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ListAfdModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT DIVISIONCODE FROM FIELD_ALL WHERE (COMP,YEAR) in (SELECT COMP,MAX(YEAR) YEAR FROM FIELD_ALL GROUP BY COMP) AND COMP = \'SMG\' ORDER BY estatecode, seq ')
+ 3 APPPATH/Controllers/ListAfdController.php(16): App\Models\ListAfdModel->getListAfd()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ListAfdController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListAfdController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-17 06:42:30 --> Error connecting to the database: ErrorException: oci_connect(): ORA-12170: TNS:Connect timeout occurred in /var/www/html/system/Database/OCI8/Connection.php:149
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_connect(): ...', '/var/www/html/s...', 149)
+#1 /var/www/html/system/Database/OCI8/Connection.php(149): oci_connect('EPMS_SMG', Object(SensitiveParameterValue), '10.20.36.10:152...', 'AL32UTF8')
+#2 /var/www/html/system/Database/BaseConnection.php(421): CodeIgniter\Database\OCI8\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/ListBlokModel.php(79): CodeIgniter\Database\BaseConnection->query('SELECT BLOCKID,...')
+#5 /var/www/html/app/Controllers/ListBlokController.php(25): App\Models\ListBlokModel->getListBlok('AFD-I')
+#6 /var/www/html/system/CodeIgniter.php(933): App\Controllers\ListBlokController->listBlok('AFD-I')
+#7 /var/www/html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListBlokController))
+#8 /var/www/html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-17 06:42:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [OCI8]: oci_connect(): ORA-12170: TNS:Connect timeout occurred
+[Method: GET, Route: listblok/AFD-I]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ListBlokModel.php(79): CodeIgniter\Database\BaseConnection->query('SELECT BLOCKID, ESTATECODE FROM OPTPHMASTER WHERE DIVISIONCODE = \'AFD-I\' AND INACTIVEDATE IS NULL GROUP BY BLOCKID, ESTATECODE ')
+ 3 APPPATH/Controllers/ListBlokController.php(25): App\Models\ListBlokModel->getListBlok('AFD-I')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ListBlokController->listBlok('AFD-I')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListBlokController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-17 06:42:30 --> Error connecting to the database: ErrorException: oci_connect(): ORA-12543: TNS:destination host unreachable in /var/www/html/system/Database/OCI8/Connection.php:149
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_connect(): ...', '/var/www/html/s...', 149)
+#1 /var/www/html/system/Database/OCI8/Connection.php(149): oci_connect('EPMS_SMG', Object(SensitiveParameterValue), '10.20.36.10:152...', 'AL32UTF8')
+#2 /var/www/html/system/Database/BaseConnection.php(421): CodeIgniter\Database\OCI8\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/ListBlokModel.php(79): CodeIgniter\Database\BaseConnection->query('SELECT BLOCKID,...')
+#5 /var/www/html/app/Controllers/ListBlokController.php(25): App\Models\ListBlokModel->getListBlok('AFD-I')
+#6 /var/www/html/system/CodeIgniter.php(933): App\Controllers\ListBlokController->listBlok('AFD-I')
+#7 /var/www/html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListBlokController))
+#8 /var/www/html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-17 06:42:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [OCI8]: oci_connect(): ORA-12543: TNS:destination host unreachable
+[Method: GET, Route: listblok/AFD-I]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ListBlokModel.php(79): CodeIgniter\Database\BaseConnection->query('SELECT BLOCKID, ESTATECODE FROM OPTPHMASTER WHERE DIVISIONCODE = \'AFD-I\' AND INACTIVEDATE IS NULL GROUP BY BLOCKID, ESTATECODE ')
+ 3 APPPATH/Controllers/ListBlokController.php(25): App\Models\ListBlokModel->getListBlok('AFD-I')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ListBlokController->listBlok('AFD-I')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListBlokController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-17 06:42:31 --> Error connecting to the database: ErrorException: oci_connect(): ORA-12170: TNS:Connect timeout occurred in /var/www/html/system/Database/OCI8/Connection.php:149
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_connect(): ...', '/var/www/html/s...', 149)
+#1 /var/www/html/system/Database/OCI8/Connection.php(149): oci_connect('EPMS_SMG', Object(SensitiveParameterValue), '10.20.36.10:152...', 'AL32UTF8')
+#2 /var/www/html/system/Database/BaseConnection.php(421): CodeIgniter\Database\OCI8\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/ListBlokModel.php(79): CodeIgniter\Database\BaseConnection->query('SELECT BLOCKID,...')
+#5 /var/www/html/app/Controllers/ListBlokController.php(25): App\Models\ListBlokModel->getListBlok('AFD-I')
+#6 /var/www/html/system/CodeIgniter.php(933): App\Controllers\ListBlokController->listBlok('AFD-I')
+#7 /var/www/html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListBlokController))
+#8 /var/www/html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-17 06:42:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [OCI8]: oci_connect(): ORA-12170: TNS:Connect timeout occurred
+[Method: GET, Route: listblok/AFD-I]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ListBlokModel.php(79): CodeIgniter\Database\BaseConnection->query('SELECT BLOCKID, ESTATECODE FROM OPTPHMASTER WHERE DIVISIONCODE = \'AFD-I\' AND INACTIVEDATE IS NULL GROUP BY BLOCKID, ESTATECODE ')
+ 3 APPPATH/Controllers/ListBlokController.php(25): App\Models\ListBlokModel->getListBlok('AFD-I')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ListBlokController->listBlok('AFD-I')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListBlokController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-17 06:43:09 --> Error connecting to the database: ErrorException: oci_connect(): ORA-12170: TNS:Connect timeout occurred in /var/www/html/system/Database/OCI8/Connection.php:149
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'oci_connect(): ...', '/var/www/html/s...', 149)
+#1 /var/www/html/system/Database/OCI8/Connection.php(149): oci_connect('EPMS_SMG', Object(SensitiveParameterValue), '10.20.36.10:152...', 'AL32UTF8')
+#2 /var/www/html/system/Database/BaseConnection.php(421): CodeIgniter\Database\OCI8\Connection->connect(false)
+#3 /var/www/html/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/html/app/Models/ListBlokModel.php(79): CodeIgniter\Database\BaseConnection->query('SELECT BLOCKID,...')
+#5 /var/www/html/app/Controllers/ListBlokController.php(25): App\Models\ListBlokModel->getListBlok('AFD-I')
+#6 /var/www/html/system/CodeIgniter.php(933): App\Controllers\ListBlokController->listBlok('AFD-I')
+#7 /var/www/html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListBlokController))
+#8 /var/www/html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-17 06:43:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [OCI8]: oci_connect(): ORA-12170: TNS:Connect timeout occurred
+[Method: GET, Route: listblok/AFD-I]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ListBlokModel.php(79): CodeIgniter\Database\BaseConnection->query('SELECT BLOCKID, ESTATECODE FROM OPTPHMASTER WHERE DIVISIONCODE = \'AFD-I\' AND INACTIVEDATE IS NULL GROUP BY BLOCKID, ESTATECODE ')
+ 3 APPPATH/Controllers/ListBlokController.php(25): App\Models\ListBlokModel->getListBlok('AFD-I')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ListBlokController->listBlok('AFD-I')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListBlokController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 07:00:19 --> ErrorException: unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/writable/debugbar/debugbar_1731985209.445627.json): Operation not permitted', '/var/www/html/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/writable/debugbar/debugbar_1731985209.445627.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1734418818.518803', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
